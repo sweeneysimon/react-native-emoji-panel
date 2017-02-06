@@ -1,0 +1,24 @@
+{
+  "name": "react-native-emoji-panel",
+  "version": "0.1.1",
+  "description": "Customized emoji panel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnHongpeng/react-native-emoji-panel.git"
+  },
+  "keywords": [
+    "emoji",
+    "react-native",
+    "react-native-emoji"
+  ],
+  "author": "roc.anhongpeng@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnHongpeng/react-native-emoji-panel/issues"
+  },
+  "homepage": "https://github.com/AnHongpeng/react-native-emoji-panel#readme"
+}
