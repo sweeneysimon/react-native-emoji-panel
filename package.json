@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-panel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Customized emoji panel.",
   "main": "index.js",
   "scripts": {

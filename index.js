@@ -115,13 +115,13 @@ EmojiPanel.propTypes = {
   bgColor: PropTypes.string,
   showSwitchMenu: PropTypes.bool,
   onDelete: PropTypes.func,
-  onPick: PropTypes.func
+  onPick: PropTypes.func.isRequired,
 };
 
 const styles = StyleSheet.create({
   panel: {
     width: WINDOW_WIDTH,
-    height: 160
+    height: 160,
   },
   page: {
     flexDirection: 'row',
@@ -129,23 +129,22 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingHorizontal: 26,
     width: WINDOW_WIDTH,
-    height: 160
+    height: 160,
   },
   btn: {
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 10,
-    paddingHorizontal: 6,
     width: (WINDOW_WIDTH - 52) / 9,
     height: 30,
   },
   emoji: {
-    fontSize: 20
+    fontSize: 20,
   },
   iconDelete: {
     width: 22,
     height: 16,
-    resizeMode: 'stretch'
+    resizeMode: 'stretch',
   },
   switchMenu: {
     flexDirection: 'row',
@@ -153,19 +152,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     position: 'absolute',
     bottom: 15,
-    height: 6
+    height: 6,
   },
   switchItem: {
     width: 6,
     height: 6,
-    borderRadius: 3
+    borderRadius: 3,
   },
   switchItemCrt: {
-    backgroundColor: '#666666'
+    backgroundColor: '#666666',
   },
   switchItemGrey: {
-    backgroundColor: '#CCCCCC'
-  }
+    backgroundColor: '#CCCCCC',
+  },
 });
 
 export default EmojiPanel;
