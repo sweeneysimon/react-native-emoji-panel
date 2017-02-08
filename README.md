@@ -1,11 +1,11 @@
 react-native-emoji-panel
 ===
 
-Customized emoji panel.
+Customized emoji panel for react-native.
 
 ## Installation
 
-        npm install react-native-emoji-panel
+`npm install react-native-emoji-panel`
 
 ## Properties
 
@@ -37,4 +37,4 @@ If you set an event handler for this property, a delete btn would appear on your
 * Optional
 * Type: Function
 
-When you press the emoji btn, call this event handler. It has one param - emoji (the emoji code you pick).
+When you press the emoji btn, call this event handler. It has one param - emoji (the emoji code you picked).
