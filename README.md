@@ -38,3 +38,10 @@ Control whether show the switch menu of your panel.
 * Type: Function
 
 If you set an event handler for this property, a delete btn would appear on your every emoji page of the panel, and would call the function when press the delete btn.
+
+## Run example
+
+```
+cd ./Example
+npm install
+```
