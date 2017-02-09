@@ -1,3 +1,3 @@
-rootProject.name = 'ReactNativeEmojiPanel'
+rootProject.name = 'Example'
 
 include ':app'

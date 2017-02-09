@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class ReactNativeEmojiPanel extends Component {
+export default class Example extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ReactNativeEmojiPanel', () => ReactNativeEmojiPanel);
+AppRegistry.registerComponent('Example', () => Example);

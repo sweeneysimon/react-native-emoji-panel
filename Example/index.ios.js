@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import EmojiPanel from 'react-native-emoji-panel';
 
-export default class ReactNativeEmojiPanel extends Component {
+export default class Example extends Component {
   constructor(props) {
     super(props);
     this.handlePick = this.handlePick.bind(this);
@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ReactNativeEmojiPanel', () => ReactNativeEmojiPanel);
+AppRegistry.registerComponent('Example', () => Example);
