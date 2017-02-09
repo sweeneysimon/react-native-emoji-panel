@@ -3,6 +3,8 @@ react-native-emoji-panel
 
 Customized emoji panel for react-native.
 
+![screen-shoots](./Example/screen-shoots.gif)
+
 ## Installation
 
 `npm install react-native-emoji-panel`
