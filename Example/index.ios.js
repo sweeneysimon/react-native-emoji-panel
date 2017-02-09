@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     paddingHorizontal: 15,
     height: 40,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
   },
 });
 
