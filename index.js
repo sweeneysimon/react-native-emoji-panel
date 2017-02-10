@@ -139,6 +139,7 @@ const styles = StyleSheet.create({
     height: 30,
   },
   emoji: {
+    color: '#000',
     fontSize: 20,
   },
   iconDelete: {
