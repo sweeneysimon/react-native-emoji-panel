@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 10,
-    width: Math.floor((WINDOW_WIDTH - 52) / 9),
+    width: Math.floor((WINDOW_WIDTH - 52) / 9) - 1,
     height: 30,
   },
   emoji: {
