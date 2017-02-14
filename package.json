@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-panel",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Customized emoji panel.",
   "main": "index.js",
   "repository": {
@@ -14,8 +14,8 @@
     "ios",
     "android"
   ],
-  "author": "roc.anhongpeng@gmail.com",
-  "license": "ISC",
+  "author": "AnHongpeng <roc.anhongpeng@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnHongpeng/react-native-emoji-panel/issues"
   },
