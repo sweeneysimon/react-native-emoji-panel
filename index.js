@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   Dimensions,
   Image,
@@ -8,6 +8,8 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
+
+import PropTypes from 'prop-types';
 import Emoji from './lib/emoji';
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
